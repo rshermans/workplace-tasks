@@ -1,0 +1,40 @@
+# General
+.DS_Store
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Dotnet
+bin/
+obj/
+Debug/
+Release/
+*.pdb
+*.dll
+*.exe
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+*.db
+*.db-shm
+*.db-wal
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.local
+coverage/
+
+# Build logs and temporary files
+*.log
+msbuild.log
+build*.log
+build*.txt
+errors.log
+
+# OS
+Thumbs.db

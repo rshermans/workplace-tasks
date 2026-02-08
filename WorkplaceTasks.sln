@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{669BC49E-7C01-4AEB-869B-6ACC0B11C4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkplaceTasks.Api", "backend\WorkplaceTasks.Api\WorkplaceTasks.Api.csproj", "{4A3EADF8-E0B2-49D1-AB0A-1716FB665698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkplaceTasks.Tests", "backend\WorkplaceTasks.Tests\WorkplaceTasks.Tests.csproj", "{80724950-3637-4955-8CE2-645F8B415161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A3EADF8-E0B2-49D1-AB0A-1716FB665698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3EADF8-E0B2-49D1-AB0A-1716FB665698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3EADF8-E0B2-49D1-AB0A-1716FB665698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3EADF8-E0B2-49D1-AB0A-1716FB665698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80724950-3637-4955-8CE2-645F8B415161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80724950-3637-4955-8CE2-645F8B415161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80724950-3637-4955-8CE2-645F8B415161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80724950-3637-4955-8CE2-645F8B415161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A3EADF8-E0B2-49D1-AB0A-1716FB665698} = {669BC49E-7C01-4AEB-869B-6ACC0B11C4FF}
+		{80724950-3637-4955-8CE2-645F8B415161} = {669BC49E-7C01-4AEB-869B-6ACC0B11C4FF}
+	EndGlobalSection
+EndGlobal
