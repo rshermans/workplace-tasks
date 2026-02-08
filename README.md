@@ -116,7 +116,7 @@ The system is pre-seeded with three tiers of users for testing:
 
 Para validar o sistema de permissões:
 
-1. **Aceda à aplicação**: http://localhost:5174
+1. **Aceda à aplicação**: http://localhost:5173
 2. **Faça login com cada role**:
    - Admin: `admin@example.com` / `Password123!`
    - Manager: `manager@example.com` / `Password123!`
